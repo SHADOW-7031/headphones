@@ -1,0 +1,172 @@
+body{
+    background-color:palegoldenrod;
+}
+.soft{
+    text-align: center;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.two{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 60%;
+}
+.pro{
+    background-color: white;
+    width: 100px;
+    text-align: center;
+}
+.probox{
+    outline: 1px dotted black;
+    width: 80%;
+}
+.add{
+    background-color: blueviolet;
+    color: white;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 3px 5px 10px black;
+}
+.img{
+   width: 500px;
+   align-self: center;
+}
+.d2{
+    background-color: white;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.psm{
+    padding: 5px;
+    width: 350px;
+    box-shadow: 3px 5px 20px;
+    border-radius: 10px;
+    
+}
+.ps{
+    padding: 5px;
+    width: 350px;
+    box-shadow: 3px 5px 20px;
+    border-radius: 10px;
+}
+.pt{
+    padding: 5px;
+    width: 350px;
+    box-shadow: 3px 5px 20px;
+    border-radius: 10px;
+}
+.img2{
+    width:100%;
+}
+.para{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 45vw 45vw;
+    grid-template-rows: 30vh 30vh 30vh 30vh;
+    justify-content: center;
+    font-size: 2vh;
+
+}
+.p1{
+    grid-row: 1;
+    grid-column: 2;
+    margin: 10px;
+    padding:20px;
+    align-self: center;
+}
+.p2{
+    grid-row: 2;
+    grid-column: 1;
+    margin: 10px;
+    padding: 20px;
+    align-self: center;
+}
+.p3{
+    grid-row: 2;
+    grid-column: 2;
+    margin: 10px;
+    padding: 20px;
+    align-self: center;
+}
+.p4{
+    grid-row: 3;
+    grid-column: 1;
+    margin: 10px;
+    padding: 20px;
+    align-self: center;
+}
+.p5{
+    grid-row: 4;
+    grid-column: 1;
+    margin: 10px;
+    padding: 20px;
+    align-self: center;
+}
+.p6{
+    grid-row: 4;
+    grid-column: 2;
+    margin: 10px;
+    padding: 20px;
+    align-self: center;
+}
+.pm1{
+    height: 100%;
+    grid-row: 1;
+    grid-column: 1;
+    padding: 20px;
+}
+.pm2{
+    height: 100%;
+    grid-row: 3;
+    grid-column: 2;
+    padding: 20px;
+    margin:10%;
+    align-self: center;
+}
+.in1{
+    width: 300px;
+}
+.in2{
+    width: 300px;
+}
+.in3{
+    width: 300px;
+}
+.in4{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+.sub{
+    background-color: blueviolet;
+    color: white;
+    width: 150px;
+    padding: 1em;
+}
+.pimg1{
+    display: flex;
+    justify-content: center;
+}
+.pimg2{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:600px) {
+    
+}
